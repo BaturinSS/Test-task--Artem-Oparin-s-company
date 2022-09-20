@@ -1,5 +1,7 @@
 # Test task (Artem Oparin's company)
- Test assignment for a frontend developer vacancy
+ Test assignment for a frontend developer vacancy   
+
+![Первый экран](https://user-images.githubusercontent.com/94468513/191331694-1584a449-2f4f-44ad-8731-281e3575d6a1.jpg)
 
 Репозиторий для задания на вакансию frontend разработчика. В ответ на мой отклик на вакансию мне было предложено выполнить тестовое задание.   
 
