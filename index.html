@@ -1,21 +1,146 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="index.css">
-   <title>Test task</title>
-   <meta name="description" content="Тестовое задание на вакансию frontend разработчик">
-   <meta name="keywords" content="html, css">
-   <meta name="author" content="Сергей Батурин">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Test task</title>
+  <meta name="description" content="Тестовое задание на вакансию frontend разработчик">
+  <meta name="keywords" content="html, css">
+  <meta name="author" content="Сергей Батурин">
 </head>
+
 <body>
   <div class="root">
-      <header class="header">
-
-      </header>
- <main class="content">
-   </div>
+    <header class="header">
+      <div class="header__menu">
+        <button class="header__city" type="button">
+          <img class="header__icon" src="./images/cities-min.svg" alt="город">
+          Москва
+        </button>
+        <a class="header__email" href="mailto:info@roger-boat.ru">
+          <img class="header__icon-email" src="./images/mail-min.svg" alt="почта">
+          info@roger-boat.ru
+        </a>
+        <nav>
+          <ul class="header__nav-menu">
+            <li><a>О компании</a></li>
+            <li><a>Оптовикам</a></li>
+            <li><a>Продукция</a></li>
+            <li><a>Доставка и оплата</a></li>
+            <li><a>Гарантия</a></li>
+            <li><a>Сертификаты</a></li>
+            <li><a>Производство</a></li>
+            <li><a>Статьи</a></li>
+            <li><a>Контакты</a></li>
+          </ul>
+        </nav>
+        <a class="header__phone" href="tel:+79091406912">+7 (909) 140-69-12</a>
+        <button class="header__phone-button" type="button"></button>
+        <div class="header__icon-group">
+          <a class="header__telegram" href="#">
+            <img class="header__icon" src="./images/telegram-min.svg" alt="телеграм">
+          </a>
+          <a class="header__whatsapp" href="#">
+            <img class="header__icon" src="./images/whatsapp-min.svg" alt="вацап">
+          </a>
+        </div>
+      </div>
+      <div class="header__search">
+        <button class="header__burger-menu" type="button">
+          <img class="header__icon-menu" src="./images/burger-min.svg" alt="меню">
+        </button>
+        <img class="header__logo" src="./images/logo-min.svg" alt="логотип">
+        <p class="header__description">ЛОДКИ ПВХ ОТ ПРОИЗВОДИТЕЛЯ С БЕСПЛАТНОЙ ДОСТАВКОЙ <span>ПО РОССИИ</span></p>
+        <img class="header__image-search" src="./images/search-min.svg" alt="лупа">
+        <div class="header__choice">
+          <div class="header__choice-icon">
+            <img class="header__image-icon" src="./images/comparison-min.svg" alt="параметры">
+            <span class="header__number-icon">5</span>
+          </div>
+          <div class="header__choice-icon">
+            <img class="header__choice-icon" src="./images/selected-min.svg" alt="выбор">
+            <span class="header__number-icon">5</span>
+          </div>
+          <div class="header__choice-icon">
+            <img class="header__choice-icon" src="./images/basket-min.svg" alt="корзина">
+            <span class="header__number-icon">5</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="menu">
+        <nav>
+          <ul class="menu__list">
+            <li><a class="menu__link" href="#">КАТАЛОГ</a></li>
+            <li><a class="menu__link" href="#">ПНД</a></li>
+            <li><a class="menu__link" href="#">АЭРО</a></li>
+            <li><a class="menu__link" href="#">ПВХ</a></li>
+            <li><a class="menu__link" href="#">ПОД ЗАКАЗ</a></li>
+            <li><a class="menu__link menu__link_active" href="#">РАСПРОДАЖА</a></li>
+          </ul>
+        </nav>
+        <address class="menu__address">610033, Россия, Киров, Романа Ердякова, 42а, кор.3</address>
+        <p class="menu__time">Пн-Пт: с 10.00 до 17.00<span>(без перерыва на обед)</span></p>
+      </section>
+      <section class="content">
+        <div class="content__advertising">
+          <div class="content__text">
+            <p class="content__title">Моторная лодка</p>
+            <p class="content__description">ПВХ Zefir 3100 LT (малокилевая)</p>
+            <p class="content__price">43 700 ₽</p>
+            <p class="content__sale">43 700 ₽</p>
+            <button class="content__button-order">ОФОРМИТЬ ЗАКАЗ</button>
+            <div class="content__group-button">
+              <button class="content__button">
+                <div class="content__button-left"></div>
+                <div class="content__button-left_line"></div>
+              </button>
+              <button class="content__button content__button_deactivate">
+                <div class="content__button-right_line"></div>
+                <div class="content__button-right"></div>
+              </button>
+            </div>
+          </div>
+          <img class="content__image-boat" src="./images/boat-min.png" alt="лодка">
+          <img class="content__image-person" src="./images/person-min.png" alt="рыбак">
+        </div>
+        <div class="content__group">
+          <div class="content__plus content__plus_color_grey">
+            <h3 class="content__plus-title">БЫСТРЫЙ ЗАКАЗ</h3>
+            <p class="content__plus-description">Укажите номер телефона, мы позвоним вам <span>и оформим заказ за
+                вас</span></p>
+            <div class="content__plus-phone"></div>
+            <img class="content__plus-image" src="./images/phone-min.png" alt="телефон">
+            <img class="content__plus-image_in-phone" src="./images/phone_in_phone-min.png" alt="в телефоне">
+          </div>
+          <div class="content__plus content__plus_color_yellow">
+            <h3 class="content__plus-title">СОБЛЮДАЕМ СРОКИ</h3>
+            <p class="content__plus-description">Точно и вовремя</p>
+            <img class="content__plus-image" src="./images/watch-min.png" alt="часы">
+          </div>
+          <div class="content__plus content__plus_color_blue">
+            <h3 class="content__plus-title content__plus-title_boat">МЫ ПРОИЗВОДИТЕЛИ ЛОДОК</h3>
+            <p class="content__plus-description content__plus-description_color">
+              Гарантия качества<span>лодок</span> от производителя
+            </p>
+            <img class="content__plus-image" src="./images/boat_2-min.png" alt="лодка">
+          </div>
+          <div class="content__plus content__plus_color_green">
+            <h3 class="content__plus-title content__plus-title_stocks">НАШИ АКЦИИ<span>И СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</span>
+            </h3>
+            <img class="content__plus-image" src="./images/sale-min.png" alt="распродажа">
+          </div>
+        </div>
+      </section>
+      <section class="parameters">
+        <img class="parameters__icon" src="./images/calc-min.svg" alt="калькулятор">
+      </section>
+    </main>
+  </div>
 </body>
+
 </html>
