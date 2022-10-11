@@ -9,7 +9,7 @@ Test assignment for a frontend developer vacancy
 
 [Ссылка на материалы для выполнения задания](https://disk.yandex.ru/d/h3jDH36LOmGYkg)   
 
-[Ссылка на сайт](https://baturinss.github.io/Test-task--Artem-Oparin-s-company)
+[Ссылка на сайт](https://baturinss.github.io/test-task-artem-oparin-s-company/)
 
 🌕 Произведена работа:    
 ✅ Оптимизированы изображения      
